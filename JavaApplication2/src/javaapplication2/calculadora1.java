@@ -9,5 +9,22 @@ package javaapplication2;
  * @author Yosmeri C. Cruz
  */
 public class calculadora1 {
+    private int operando1;
+    private int operando2;
+    
+    public calculadora (){
+        
+    }
+    public calculadora (int operando1, int operando2){
+    this.operando1= operando1;
+    this.operando2 = operando2;
+    }
+    
+    //procedimientos
+    public int sumar(){
+        int suma = this.operando1 + this.operando2;
+        return suma;
+            
+    
     
 }
