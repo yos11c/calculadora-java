@@ -34,6 +34,11 @@ public class calculadora1 {
         int multiplicar = this.operando1 * this.operando2;
         return multiplicar;
     }
+    public int dividir (){
+        int dividir = this.operando1 / this.operando2;
+        return dividir;
+    }
+    
     
      
 }
