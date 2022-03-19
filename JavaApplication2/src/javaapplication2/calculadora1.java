@@ -30,6 +30,10 @@ public class calculadora1 {
         int restar = this.operando1 - this.operando2;
         return restar;
     }
-
+    public int multiplicar (){
+        int multiplicar = this.operando1 * this.operando2;
+        return multiplicar;
+    }
+    
      
 }
