@@ -24,7 +24,12 @@ public class calculadora1 {
     public int sumar(){
         int suma = this.operando1 + this.operando2;
         return suma;
-            
+    }
     
-    
+    public int restar (){
+        int restar = this.operando1 - this.operando2;
+        return restar;
+    }
+
+     
 }
