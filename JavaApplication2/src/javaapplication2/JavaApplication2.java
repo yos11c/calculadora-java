@@ -15,6 +15,12 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+       Calculadora miCalculadora = new Calculadora (10,7);
+       //10 op 1 y 7 op 2
+       int suma = miCalculadora.suma();
+       System.out.println("la suma es: " + suma);
     }
+                 
     
 }

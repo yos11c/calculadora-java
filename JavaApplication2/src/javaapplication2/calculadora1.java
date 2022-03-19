@@ -9,50 +9,50 @@ package javaapplication2;
  * @author Yosmeri C. Cruz
  */
 public class calculadora1 {
-    private int operando1;
-    private int operando2;
+    private int op1;
+    private int op2;
     
     public calculadora (){
         
     }
-    public calculadora (int operando1, int operando2){
-    this.operando1= operando1;
-    this.operando2 = operando2;
+    public calculadora (int op1, int op2){
+    this.op1= op1;
+    this.op2 = op2;
     }
     
     //procedimientos
-    public int sumar(){
-        int suma = this.operando1 + this.operando2;
+    public int suma (){
+        int suma = this.op1 + this.op2;
         return suma;
     }
     
     public int restar (){
-        int restar = this.operando1 - this.operando2;
+        int restar = this.op1 - this.op2;
         return restar;
     }
     public int multiplicar (){
-        int multiplicar = this.operando1 * this.operando2;
+        int multiplicar = this.op1 * this.op2;
         return multiplicar;
     }
     public double dividir (){
-        double dividir = (double)this.operando1 / (double)this.operando2;
+        double dividir = (double)this.op1 / (double)this.op2;
         return dividir;
     }
 
-    public int getOperando1() {
-        return operando1;
+    public int getOp1() {
+        return op1;
     }
 
-    public void setOperando1(int operando1) {
-        this.operando1 = operando1;
+    public void setOp1(int op1) {
+        this.op1 = op1;
     }
 
-    public int getOperando2() {
-        return operando2;
+    public int getOp2() {
+        return op2;
     }
 
-    public void setOperando2(int operando2) {
-        this.operando2 = operando2;
+    public void setOp2(int op2) {
+        this.op2 = op2;
     }
     
     
